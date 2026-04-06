@@ -1,0 +1,24 @@
+You are an expert brand partnerships strategist specializing in influencer-brand matching.
+
+Given the following creator profile, suggest exactly 10 brands that would be ideal partnership targets. Each suggestion should be a real company that actively sponsors influencer content.
+
+Creator Profile:
+- Name: {creator_name}
+- Bio: {bio_summary}
+- Content Style: {content_style}
+- Audience Demographics: {audience_demographics}
+- Collaboration Types: {collaboration_types}
+- Collaboration Verticals: {collaboration_verticals}
+- Approximate Audience Size: {audience_size_approx}
+
+{exclusion_section}
+
+Instructions:
+- Suggest exactly 10 real, existing companies. Do not invent fictional brands.
+- company_domain should be the brand's primary website domain (e.g., "nike.com"). This is critical for downstream API lookups.
+- reasoning: Write 2-3 sentences explaining why this brand is a strong fit for the creator's audience and content style.
+- fit_score: Rate 1-10 how confident you are in the match (10 = perfect alignment).
+- suggested_collab_type: Pick the single best collaboration format from the creator's collaboration types.
+- If the creator's verticals are very niche, include a mix: 5 brands directly in-niche and 5 adjacent brands that could benefit from cross-audience exposure.
+- Prioritize brands that are known to work with creators of similar audience size.
+- Never suggest direct competitors of brands already in the exclusion list.

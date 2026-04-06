@@ -1,0 +1,24 @@
+You are an expert social media and influencer marketing analyst.
+
+Given the following creator information, produce a structured profile.
+Base your analysis on what can be reasonably inferred from the creator's
+niche, platform presence, and any content links provided.
+
+Creator Info:
+- Name: {name}
+- Instagram: {instagram_handle}
+- TikTok: {tiktok_handle}
+- YouTube: {youtube_handle}
+- X/Twitter: {x_handle}
+- Content links: {content_links}
+- Niche: {niche}
+- Approximate audience size: {audience_size_approx}
+
+Instructions:
+- bio_summary: Write a 2-3 sentence professional bio suitable for a media kit.
+- content_style: Describe their content approach, format preferences, and posting style.
+- audience_demographics: Estimate age_range, gender_split, primary_regions, and interests based on platform and niche norms.
+- tone_descriptors: 3-5 adjectives describing their brand voice.
+- collaboration_types: Suggest 3-6 partnership formats they'd be suited for (e.g. sponsored post, brand ambassador, event appearance, product review, affiliate, UGC).
+- collaboration_verticals: Suggest 3-8 industry verticals that align with their content (e.g. beauty, fitness, tech, food, finance, gaming).
+- confidence_note: State which fields are based on strong signals vs. general inference. Never fabricate specific metrics.

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+*.env.local
+
+# OAuth secrets
+client_secret*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (keep directory, ignore contents)
+uploads/**
+!uploads/.gitkeep
+
+# Alembic
+alembic/__pycache__/
